@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Registro</title>
+		<link rel="icon" type="image/jpg" href="imagenes/logo.jpg"/>
+		<meta charset="UTF-8"/>
+		<link href="../css/estilos.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<header class="header">
+			<div class="container logo-nav-container">
+				<img title="Pastedom" src="Imagenes/logo.jpg">
+				<a href="../Index.html" class="logo">Pastedom</a>
+				<nav class="navigation">
+					<ul>
+						<li><a href="../Index.html">Inicio</a></li>
+						<li><a href="Productos.html">Productos</a></li>
+						<li><a href="Contacto.html">Contacto</a></li>
+						<li><a href="Quienes_somos.html">Quienes somos</a></li>
+						<li><a href="Registro.html">Registro</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<form action="" method="post">
+		<fieldset>
+		    <h1>Información de Acceso</h1>
+			<hr/>
+			<table id="Acceso">
+				<tbody><tr>
+					<td>Nombre usuario:</td>
+					<td><input type="text" name="nombre" value="" size="16" maxlength="16"></td>
+				</tr>
+				<tr>
+					<td>Contraseña usuario:</td>
+					<td><input type="password" name="contrasena" value="" size="30" maxlength="10"></td>
+				</tr>
+				</tbody></table>
+		</fieldset>
+		<fieldset>
+			<h1>Información Personal</h1>
+			<hr/>
+			<table id="Acceso">
+			<tbody><tr>
+				<td>Nombre:</td>
+				<td><input type="text" name="Nombre" &lt;!placeholder="Nombre usuario" &gt;="" size="28" maxlengh="25"></td>
+			</tr>
+			<tr>
+				<td>Apellidos:</td>
+				<td><input type="text" name="Apellidos" &lt;!placeholder="Apellidos" &gt;="" size="28" maxlength="35"></td>
+			</tr>
+			<tr>
+				<td>Fecha de nacimiento:</td>
+				<td><input type="date" name="fechanac" min="1900-01-01" size="28"></td>
+			</tr>
+			<tr>
+				<td>Dirección:</td>
+				<td><input type="text" name="Dirección" &lt;!placeholder="Dirección" &gt;="" size="28" maxlength="60"></td>
+			</tr>
+			<tr>
+				<td>Teléfono:</td>
+				<td><input type="text" name="Teléfono" &lt;!placeholder="Teléfono" &gt;size="17" maxlength="9" min="600000000,700000000,800000000,900000000"/></td>
+			</tr>
+			<tr>
+				<td>Correo electrónico:</td>
+				<td><input type="email" name="email" &lt;!placeholder="E-Mail" &gt;="" size="28"></td>
+			</tr>
+			</tbody></table>
+		</fieldset>
+		<fieldset>
+			<h1>Información de interés</h1>
+			<hr/>
+			<table id="Acceso">
+			<tbody><tr>
+				<td rowspan="6">Gustos:</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="idep" value="Gustos">Chocolate (nuestra especialidad)</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="ilit" value="Gustos">Fresa</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="imus" value="Gustos">Nata</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="imus" value="Gustos">Vainilla</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="imus" value="Gustos">Frutos del bosque</td>
+			</tr>
+			</tbody></table>
+		</fieldset>
+		<input name="suscribir" type="checkbox" value="suscribir" checked="checked"> Desea recibir publicidad.
+		<br/>
+		<input name="suscribir" type="checkbox" value="suscribir" checked="checked"> Desea recibir el boletín de novedades.
+		<br/>
+		<input type="submit" name="Enviar" value="Enviar">
+		<input type="reset" name="limpiar" value="Borrar datos">
+		</form>
+		<footer class="footer">
+			<div class="container">
+				<p class="rights">Copyright 2018 keyquotes todos los derechos reservados | <a link href="#">Cambiar idioma</a>
+				<p class="Contacto">Pastedom, Calle Fray Luis de León, 29, 629 923 223, pastedom@gmail.com
+			</div>
+		</footer>
+	</body>
+</html>
